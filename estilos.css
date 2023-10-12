@@ -22,19 +22,6 @@ header {
 h1 {
     color: #fff; /* Color de texto blanco */
 }
-.carrusel {
-    position: relative;
-    width: 100%;
-    max-width: 600px; /* Ancho máximo del carrusel */
-    margin: 0 auto; /* Centrar el carrusel horizontalmente */
-    overflow: hidden; /* Ocultar contenido que se desborde */
-}
-
-.elemento {
-    display: none; /* Ocultar elementos del carrusel por defecto */
-    width: 100%; /* Ancho de cada elemento */
-    text-align: center; /* Centrar contenido horizontalmente */
-}
 
 .elemento img {
     max-width: 100%; /* Asegurar que las imágenes se ajusten correctamente */
@@ -93,7 +80,7 @@ img {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para la carta */
     text-align: center;
-    max-width: 70%; /* Reducir el ancho de la carta al 60% */
+    max-width: 50%; /* Reducir el ancho de la carta al 60% */
     margin: 20px auto; /* Añadido margen para centrar la carta */
 }
 
